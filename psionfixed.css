@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+}  
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.container .navigationbar{  
+    position: sticky; 
+    top: 0px;
+    height: 48px;
+    width: 100%; 
+    background-color: rgb(242, 238, 246);  
+    display: flex;
+   
+   
+
+}  
+.navigationbar ul{
+    display: flex;
+    align-items:center;
+    column-gap: 20px;
+
+}
+.navigationbar input{
+    width: 200px;
+    height: 25px;
+}
+ul,.space{
+    flex-grow: 1;
+    margin: 0px 100px 0px 40px;
+
+}
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.container .navigationbar .search {
+    height: 30px;
+    width: 170px; 
+    
+} 
+
+i{
+    margin-left: 5px; 
+    height: 20px;
+}
+
+
+
+.secation h1{ 
+    text-align: center; 
+    margin-top: 40px; 
+    /* background-color: rgb(198, 160, 133);  */
+   
+    
+    
+
+}
+
+.secation .subsectionA {  
+    /* height: 400px;  */
+    margin-top: 59px;
+    display: flex;  
+    justify-content: center; 
+    
+
+}    
+
+.container .subcontainer{ 
+    display: flex; 
+    gap: 100px; 
+    height: 600px; 
+    background-color: rgb(177, 221, 207); 
+    margin-top: 2px;
+
+} 
+ 
+
+.container .subcontainer .cupdesign{
+    width: 40%; 
+    padding-left: 50px;
+    padding-top: 10%;
+    text-align: center; 
+    
+}
+
+.container .subcontainer .cupdesign .heading{ 
+    font-size: 40px;  
+    padding-left: 170px;
+    /* margin-top: 40px; */
+
+} 
+
+.container .subcontainer .cupdesign .subheading{ 
+    font-size: 20px; 
+    padding-top: 30px;
+
+} 
+
+
+.container .subcontainer .cupdesign .btn{ 
+    height: 50px;
+    width: 200px; 
+    margin-top: 10px; 
+    margin-left: 250px;
+    background-color: rgb(231, 181, 89); 
+    color: black;  
+    border: none;
+   
+
+} 
+
+
+
+
+
+.container .secationB .subsectionB h2{
+    text-align: center; 
+    font-size: 30px; 
+    margin-top: 50px; 
+    color: rgb(124, 57, 10);
+}
+
+
+.container .secationB .subsectionB .secationC{ 
+    display: flex; 
+    column-gap: 40px; 
+    margin-left: 70px; 
+    margin-top: 50px; 
+    overflow: scroll;
+
+}   
+
+.container .secationB .subsectionB .secationC::-webkit-scrollbar { 
+    display: none;
+
+} 
+
+
+
+.container .secationB .subsectionB .secationC .dress{  
+    height: 290px;
+    width: 250px; 
+    /* border: 1px solid black;  */
+    text-align: center;
+
+
+}  
+
+/* .container .secationB .subsectionB .secationC .dress .price{
+
+} */
+
+.container .secationB .subsectionB .secationC .dress .btn{
+    height: 25px;
+    width: 90px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    background-color: orange; 
+    color: rgba(1, 10, 17, 0.886);
+} 
+
+.container .secationB .subsectionB .secationC .dress .btn:hover{ 
+    background-color: aliceblue;
+    color: black;
+
+}
+
+
+.subsectionB .secationC .dress .productname{
+    font-size: 20px;  
+    /* background-color: rgb(91, 57, 32); */
+    color: rgba(2, 13, 23, 0.829); 
+    width: 120px; 
+    text-align: center; 
+    margin-left: 35px;
+} 
+
+
+ 
+
+.container .secationB .subsectionB .secationC .dress .price{ 
+    font-size: 20px; 
+    /* background-color: chocolate; */
+
+}
+
+.container .secationD .subsectionD .secationE{ 
+    display: flex; 
+    column-gap: 40px; 
+    margin-left: 70px; 
+    margin-top: 50px; 
+    overflow: scroll; 
+    /* overflow: scroll; */
+
+}  
+
+.container .secationD .subsectionD .secationE::-webkit-scrollbar{
+    display: none;
+}
+.container .secationD .subsectionD h2{ 
+    text-align: center; 
+    font-size: 30px; 
+    margin-top: 50px;
+    color: rgb(133, 68, 21);
+
+
+} 
+
+.container .secationD .subsectionD .secationE .dress{ 
+    height: 290px;
+    width: 250px; 
+    /* border: 1px solid black;  */
+    text-align: center;
+
+}  
+
+
+.subsectionD .secationE .dress .productname{
+    font-size: 20px;  
+    /* background-color: chocolate; */
+    color: rgba(2, 13, 23, 0.829); 
+    width: 120px; 
+    text-align: center; 
+    margin-left: 35px;
+} 
+
+
+.container .secationD .subsectionD .secationE .dress .btn{ 
+
+    height: 25px;
+    width: 90px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    background-color: orange; 
+    color: aliceblue;
+
+} 
+
+.container .secationD .subsectionD .secationE .dress .btn:hover{ 
+    background-color: aliceblue; 
+    color: black;
+
+} 
+
+
+
+.container .adssecectionA .adscaption{  
+    text-align: center; 
+    margin-top: 60px;
+
+    
+} 
+
+
+.container .adssecectionA  .ads .offers{ 
+
+    /* height: 400px;  */
+    width: 800px;  
+    margin-top: 10%; 
+    font-size: 50px; 
+    padding-left: 20%;
+    /* border: 1px solid black;  */
+   
+    
+
+}  
+
+.container .adssecectionA  .ads .offers .head{
+    font-size: 60px; 
+    padding-left: 10px;
+} 
+
+.container .adssecectionA  .ads .offers  .caption{
+    font-size: 25px; 
+    padding-left: 15px; 
+    font-family:  Poor Story;
+}
+
+.container .adssecectionA  .ads{
+    display: flex; 
+    background-color: rgb(221, 146, 146);
+} 
+.container .adssecectionA  .ads .adimg{ 
+    padding-right: 190px;
+    
+} 
+
+
+
+.container .kidssection .kidssubsection .kidsprodects{ 
+    display: flex; 
+    column-gap: 40px; 
+    margin-left: 70px; 
+    margin-top: 50px; 
+    overflow: scroll; 
+   
+
+}  
+
+.container .kidssection .kidssubsection .kidsprodects::-webkit-scrollbar{
+    display: none;
+} 
+
+
+.container .kidssection .kidssubsection h2{ 
+    text-align: center; 
+    font-size: 30px; 
+    margin-top: 50px;
+    color: rgb(133, 68, 21);
+
+
+} 
+
+.kidssection .kidssubsection .kidsprodects .dress{ 
+    height: 290px;
+    width: 250px; 
+    /* border: 1px solid black;  */
+    text-align: center;
+
+}  
+
+
+.kidssection .kidssubsection .kidsprodects .dress .productname{
+    font-size: 20px;  
+    /* background-color: chocolate; */
+    color: rgba(2, 13, 23, 0.829); 
+    width: 120px; 
+    text-align: center; 
+    margin-left: 35px;
+} 
+
+
+.kidssection .kidssubsection .kidsprodects .dress .btn{ 
+
+    height: 25px;
+    width: 90px; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+    background-color: orange; 
+    color: aliceblue;
+
+} 
+
+.kidssection .kidssubsection .kidsprodects .dress .btn:hover{ 
+    background-color: aliceblue; 
+    color: black;
+
+}  
+
+
+
+.container .footer{  
+     margin-top: 100px;
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr ;  
+    gap: 10px; 
+    padding-left: 80px;  
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.714); 
+    height: 250px; 
+    color: aliceblue; 
+    
+
+} 
+.footer ul, li{
+    list-style: none; 
+    padding: 5px;
+}
+
+.footer h4{
+    margin-bottom: 10px;
+   
+    
+}
